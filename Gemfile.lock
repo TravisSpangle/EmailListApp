@@ -1,0 +1,42 @@
+GIT
+  remote: git@github.com:TravisSpangle/EmailList.git
+  revision: d54da43ba204a8ea3e811292c313760e702b2ac8
+  tag: 1.0.0
+  specs:
+    EmailList (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.3.0)
+    parser (2.3.1.2)
+      ast (~> 2.2)
+    powerpack (0.1.1)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rainbow (2.1.0)
+    rubocop (0.42.0)
+      parser (>= 2.3.1.1, < 3.0)
+      powerpack (~> 0.1)
+      rainbow (>= 1.99.1, < 3.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-progressbar (1.8.1)
+    sinatra (1.4.6)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    tilt (2.0.5)
+    unicode-display_width (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  EmailList!
+  rubocop
+  sinatra (= 1.4.6)
+
+BUNDLED WITH
+   1.12.5
