@@ -16,5 +16,3 @@ module EmailClean
     end
   end
 end
-
-using EmailClean
