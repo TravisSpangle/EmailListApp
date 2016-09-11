@@ -4,4 +4,5 @@ gem 'EmailList', tag: '1.0.0', :git => 'git@github.com:TravisSpangle/EmailList.g
 
 group :test, :development do
   gem 'rubocop'
+  gem "capistrano", "~> 3.6"
 end
