@@ -21,10 +21,10 @@ describe("EmailGenerator", function() {
   });
 
   it("should mix email addresses", function(){
-    email_generator.create_emails(5);
+    email_generator.create_emails(50);
     email_generator.mix();
 
     expect(email_generator.emails[0]).not.toEqual("test_1@email.com");
-    expect(email_generator.emails[4]).not.toEqual("test_5@email.com");
+    expect(email_generator.emails[49]).not.toEqual("test_50@email.com");
   });
 });
