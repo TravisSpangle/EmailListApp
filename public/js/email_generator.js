@@ -8,13 +8,13 @@ EmailGenerator.prototype.create_emails = function(amount, emails) {
   }
 };
 EmailGenerator.prototype.mix = function() {
-  let count = this.emails.length;
+  var count = this.emails.length;
 
   while (count > 0) {
-    let index = Math.floor(Math.random() * count);
+    var index = Math.floor(Math.random() * count);
     count--;
 
-    let temp = this.emails[count];
+    var temp = this.emails[count];
     this.emails[count] = this.emails[index];
     this.emails[index] = temp;
   }
