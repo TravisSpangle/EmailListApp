@@ -3,7 +3,6 @@ describe("EmailGenerator", function() {
 
   beforeEach(function() {
     email_generator = new EmailGenerator();
-    console.log(email_generator);
   });
 
   it("should generate test_1@email.com as it's first email", function(){
